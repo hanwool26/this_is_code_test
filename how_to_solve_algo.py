@@ -47,4 +47,18 @@ print(data.values())
 
 data = set([1,1,2,3,4,4,5])
 print(data)
+a = [1,2,3]
+a.append(4)
+print(a)
+
+# input method
+n = list(map(int, input().split()))
+print(n)
+
+n = int(input())
+m = int(input())
+
+arr = []
+for i in range(n):
+    arr.apend(list(map(int, input().split())))
 
