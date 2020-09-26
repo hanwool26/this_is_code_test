@@ -62,3 +62,31 @@ arr = []
 for i in range(n):
     arr.apend(list(map(int, input().split())))
 
+# 조건문
+x = 16
+if x > 15:
+    print("x is larger than 15")
+else:
+    print("x is less than 15")
+
+a = 7
+if 0 <= a and a <= 10:
+    print('a는 0이상 10 이하')
+else:
+    pass # 나중에 작성할 코드
+
+score = 85
+result = "합격" if score >= 80 else "불합격"
+
+i = 1
+result = 0
+while i<=9:
+    result+=i
+    i += 1
+print(result)
+
+for i in range(1,10):
+    result += i
+
+print(result)
+
