@@ -60,7 +60,7 @@ m = int(input())
 
 arr = []
 for i in range(n):
-    arr.apend(list(map(int, input().split())))
+    arr.append(list(map(int, input().split())))
 
 # 조건문
 x = 16
@@ -87,6 +87,28 @@ print(result)
 
 for i in range(1,10):
     result += i
-
 print(result)
 
+# function
+# def 함수명(parameter)
+#   ....
+#   return
+
+def add(a, b):
+    return a+b
+
+print(add(3,7))
+print(lambda a,b: a+b,3,7)
+
+list1 = [1,2,3,4,5]
+list2 = [6,7,8,9,10]
+
+from itertools import product
+
+data = ['a','b','c']
+result = list(product(data, repeat=2))
+print(result)
+
+from itertools import permutations
+result = list(permutations(data,3))
+print(result)
