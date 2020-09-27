@@ -112,3 +112,4 @@ print(result)
 from itertools import permutations
 result = list(permutations(data,3))
 print(result)
+
